@@ -1,10 +1,10 @@
 html {
-  box-sizing: box-border;
+  box-sizing: border-box;
 }
 
 *,
-* before,
-:after {
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 1140;
+  width: 1280px;
   margin: 0 auto;
   /* border: 1px solid red;*/
 }
@@ -46,8 +46,8 @@ header nav {
 }
 
 .menu-link {
+  background-color: ;
   text-transform: uppercase;
   padding: 0 15px;
-
   font-size: 16px;
 }
